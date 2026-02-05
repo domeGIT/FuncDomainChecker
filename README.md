@@ -1,7 +1,10 @@
 # FuncDomainChecker
 FuncDomainChecker is a Clang Static Analyzer checker that checks the validity of inputs od certain functions, more
 specifically it checks if the input arguments of functions are in the proper function domain. As of right now it checks
-functions: atoi,atof,asin and acos. 
+functions: atoi,atof,asin and acos. Furhter information is provided in SystemDescription.md. 
+
+Author: Dimitrije Radjenovic 1084/2024
+
 ## Setup
 - Build [LLVM](https://github.com/llvm/llvm-project) as described in README
 - Copy `FuncDomainChecker.cpp` to the `llvm-project/clang/lib/StaticAnalyzer/Checkers` folder
